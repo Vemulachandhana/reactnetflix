@@ -1,0 +1,84 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.login-container{
+    height: max-content;
+    width: 100%;
+    background-color: black     
+}
+.login-ltwo{
+    width: 80%;
+    height:fit-content;
+    
+}
+.s-btn{
+    background-color: red;
+
+    border: 1px solid red;
+}
+.heading-s{
+font-weight: 700
+}
+#email-btn,#pw-btn{
+    background-color: transparent;
+}
+#email-btn::placeholder{
+    color: grey;
+}
+#pw-btn::placeholder{
+    color: grey;
+}
+#sign-code-btn{
+    background-color: #3d3534;
+}
+
+   
+@media(min-width:600px){
+    .log-page-bg{
+        background:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url('../assets/netfliixbgimg.jpg');
+        
+        height: 100vh;
+        width: 100%;
+      background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .login-container{
+        height: fit-content;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.7);
+        
+      
+    } 
+}
+
+
+
+@media(min-width:1300px){
+    .log-page-bg{
+        background:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url('../assets/netfliixbgimg.jpg');
+        
+        height: 100vh;
+        width: 100%;
+      background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .login-container{
+        height: fit-content;
+        width: 25%;
+        background-color: rgba(0, 0, 0, 0.7);
+        
+      
+    }
+    .login-ltwo{
+        width: 80%;
+        height:max-content
+    
+    }
+    
+    
+
+}
+

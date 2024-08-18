@@ -1,0 +1,10 @@
+ul li a {
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.footer-container{
+    padding-left: 10%;
+    padding-right: 10%;
+}

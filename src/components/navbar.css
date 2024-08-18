@@ -1,0 +1,58 @@
+body{
+    margin: 0%;
+}
+.navbar-banner-container{
+background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url(C:\Users\chand\OneDrive\Documents\Desktop\netflixreact\netflix-page\src\assets\netflixbg.jpg);
+background-repeat: no-repeat;
+height: 100vh;
+width: 100%;
+background-size: cover;
+
+}
+.banner-content{
+    color: white;
+    padding-top: 150px;
+    height: fit-content;
+}
+.heading-one{
+    font-size: 33px;
+    font-weight: 700;
+}
+.heading-two{
+    font-size: 20px;
+}
+
+.lang-selection{
+    background:transparent;
+}
+.mobilenum{
+    background: black;
+    opacity: 0.5;
+    
+}
+.mobilenum::placeholder{
+    color: white;
+}
+
+.para-banner{
+    font-size: 18px;
+}
+.b,.sign-btn{
+    background: red;
+}
+ @media(min-width:600px){
+    .heading-one{
+        font-size: 50px;
+        font-weight: 1000;
+    }
+    
+    .para-banner{
+        font-size: 25px;
+    }
+ }
+ @media(min-width:985px){
+    .banner-content{
+        padding-top:25%;
+    }
+ }
+ 
